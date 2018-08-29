@@ -11,6 +11,17 @@ header{
     background-position: center;
     height:100vh;
 }
+.sidenav {
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
 ul{
     list-style-type: none;
 }
@@ -22,7 +33,7 @@ nav{
 .logo-container{
     float: left;
     width:25vw;
-    padding: 30px 90px;
+    padding: 30px 120px;
 
 }
 .logo{
@@ -46,7 +57,7 @@ a{
 
 }
 .intro{
-    padding: 100px 90px;
+    padding: 125px 120px;
 }
 .button{
     border-style: none;
@@ -59,4 +70,15 @@ a{
 }
 .next_container{
     padding-top:100px;
+}
+.search{
+    padding: 10px 5px 5px 10px;
+    height: 20px;
+    width: 20px;
+}
+.subtitle{
+    color: black;
+}
+.main_content{
+    padding: 40px 120px;
 }
