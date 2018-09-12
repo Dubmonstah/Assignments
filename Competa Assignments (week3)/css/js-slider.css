@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.slideshow{
+    position: relative;
+    max-width:1000px;
+    margin: auto;
+}
+.slide{
+    border-radius: 20px;
+}
+img {
+    width:100%;
+    vertical-align: middle;
+
+}
+.previous, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 25px;
+    margin-top: -22px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.next{
+    right: 0;
+}
